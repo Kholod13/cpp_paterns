@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="dp_proxy_database.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="DatabaseProxy.h" />
+    <ClInclude Include="DatabaseReal.h" />
+    <ClInclude Include="func.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
